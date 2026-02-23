@@ -67,7 +67,6 @@ namespace backend.Controllers
                 AccessToken = accessToken,
                 ExpiresAt = DateTime.Now.AddMinutes(15)
             });
-
         }
 
         [AllowAnonymous]
